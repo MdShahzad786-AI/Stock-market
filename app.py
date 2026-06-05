@@ -1,10 +1,3 @@
-"""
-StockOracle — Indian Market Predictor
-Streamlit Cloud compatible — Python 3.14 safe.
-Uses sklearn HistGradientBoostingRegressor (no LightGBM dependency).
-Model trains at startup on synthetic data — no .pkl file needed.
-"""
-
 import streamlit as st
 import numpy as np
 import pandas as pd
